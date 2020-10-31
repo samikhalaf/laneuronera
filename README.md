@@ -10,24 +10,24 @@ Venimos cada uno de distintos campos: arte, psicología, neurología, gestión c
 
 - arte+salud y promoción de cuidados.
 - investigación y producción en arte y cultura contemporánea.
-- mediación y educación artística en instituciones culturales
+- mediación y educación artística en instituciones culturales.
 
 ## Sobre la app
 
-Esta app es simplemente el portfolio de un colectivo artístico, así que hemos seguido el concepto KISS.
+Esta app es simplemente el portfolio de un colectivo artístico que no necesita grandes artificios, así que hemos seguido el concepto KISS.
 
 ### Features
 
-- Desarrollada en React (Single Page Application)
-- Tecnologia 100% responsive para todo tipo de dispositivos
-- Estilos dinámicos con SCSS
+- Desarrollada en React (Single Page Application).
+- Tecnologia 100% responsive para todo tipo de dispositivos.
+- Estilos dinámicos con SCSS.
 
-## Dependencias
+### Dependencias
 
-- React Router Dom
-- React Hook Forms
-- Node Sass
-- Prime React
+- React Router Dom.
+- React Hook Forms.
+- Node Sass.
+- Prime React.
 
 ## Available Scripts
 
@@ -35,5 +35,6 @@ Para ver el proyecto
 
 `npm start`
 
-Runs the app in the development mode.\
+Arranca la app en modo desarrollo.
 Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador
+Todos los cambios en el código serán actualizados automáticamente.
