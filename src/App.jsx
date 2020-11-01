@@ -3,7 +3,7 @@ import "./App.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/shared/NavBar/NavBar";
 import AboutPage from "./components/pages/AboutPage/AboutPage";
-import ContactPage from "./components/pages/AboutPage/AboutPage";
+import ContactPage from "./components/pages/ContactPage/ContactPage";
 import HomePage from "./components/pages/HomePage/HomePage";
 import Footer from "./components/shared/Footer/Footer";
 
