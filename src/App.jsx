@@ -3,14 +3,14 @@ import "./App.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/shared/NavBar/NavBar";
 import AboutPage from "./components/pages/AboutPage/AboutPage";
-import ContactPage from "./components/pages/ContactPage/AboutPage";
+import ContactPage from "./components/pages/AboutPage/AboutPage";
 import HomePage from "./components/pages/HomePage/HomePage";
+import Footer from "./components/shared/Footer/Footer";
 
 function App() {
   return (
     <main>
       <Router>
-        
         <NavBar></NavBar>
 
         <Switch>
@@ -25,8 +25,9 @@ function App() {
           <Route path="/">
             <HomePage />
           </Route>
-
         </Switch>
+
+        <Footer></Footer>
       </Router>
     </main>
   );
