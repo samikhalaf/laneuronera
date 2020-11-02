@@ -1,4 +1,4 @@
-# `la neuronera. (*)` app
+# `la neuronera. (*)` app ✨
 
 Este proyecto es el codigo fuente de la página de laneuronera.info
 
