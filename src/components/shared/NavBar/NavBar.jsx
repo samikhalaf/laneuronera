@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <nav className="nav-container">
       <div>
-        <Link exact to="/">
+        <Link exact="true" to="/">
           <img className="nav-logo" src={Logo} alt="la neuronera" />
         </Link>
       </div>

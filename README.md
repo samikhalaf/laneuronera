@@ -6,7 +6,7 @@ Este proyecto es el codigo fuente de la página de laneuronera.info
 
 `la neuronera.(*) ` es una plataforma de investigación y producción de cultura contemporánea que pretende abordar desde una perspectiva expandida nuevas metodologías educativas, procesos creativos y prácticas artísticas.
 
-Venimos cada uno de distintos campos: arte, psicología, neurología, gestión cultural, diseño editorial, producción audiovisual, mediación cultural, entre otros. Dado nuestro equipo multidisciplinar, tenemos distintos ejes de actuación:
+Dado nuestro equipo multidisciplinar, tenemos distintos ejes de actuación:
 
 - arte+salud y promoción de cuidados.
 - investigación y producción en arte y cultura contemporánea.
@@ -14,20 +14,20 @@ Venimos cada uno de distintos campos: arte, psicología, neurología, gestión c
 
 ## Sobre la app
 
-Esta app es simplemente el portfolio de un colectivo artístico que no necesita grandes artificios, así que hemos seguido el concepto KISS.
+Esta app es simplemente el portfolio de un colectivo artístico que no necesita grandes artificios, así que hemos seguido un sistema simple de contenido estático sobre layouts dinámicamente generados.
 
-### Features
+### Features y tecnologías implementadas
 
 - Desarrollada en React (Single Page Application).
-- Tecnologia 100% responsive para todo tipo de dispositivos.
-- Estilos dinámicos con SCSS.
+- Tecnologia 100% responsive para todo tipo de dispositivos, escrita en CSS y SCSS.
+- Renderizado de rutas dinámicas.
+- Galería custom hecha con Swiper.
 
 ### Dependencias
 
-- React Router Dom.
-- React Hook Forms.
-- Node Sass.
-- Prime React.
+- React Router DOM (https://reactrouter.com/)
+- Node Sass. (https://www.npmjs.com/package/node-sass)
+- Swiper. (https://swiperjs.com/)
 
 ## Available Scripts
 

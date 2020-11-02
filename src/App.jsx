@@ -6,6 +6,7 @@ import AboutPage from "./components/pages/AboutPage/AboutPage";
 import ContactPage from "./components/pages/ContactPage/ContactPage";
 import HomePage from "./components/pages/HomePage/HomePage";
 import Footer from "./components/shared/Footer/Footer";
+// import Article from "./components/shared/Article/Article";
 
 function App() {
   return (
@@ -22,7 +23,11 @@ function App() {
             <ContactPage />
           </Route>
 
-          <Route path="/">
+          <Route exact path="/:project">
+            <HomePage />
+          </Route>
+
+          <Route exact path="/">
             <HomePage />
           </Route>
         </Switch>
