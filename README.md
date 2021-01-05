@@ -19,15 +19,21 @@ Esta app es simplemente el portfolio de un colectivo artístico que no necesita 
 ### Features y tecnologías implementadas
 
 - Desarrollada en React (Single Page Application).
-- Tecnologia 100% responsive para todo tipo de dispositivos, escrita en CSS y SCSS.
+- Diseño Mobile-first para todo tipo de dispositivos, escrita en SCSS.
 - Renderizado de rutas dinámicas.
 - Galería custom hecha con Swiper.
+
+### Cosas chulas que futuras
+
+- Formulario de contacto
+- Light / dark mode
 
 ### Dependencias
 
 - React Router DOM (https://reactrouter.com/)
 - Node Sass. (https://www.npmjs.com/package/node-sass)
 - Swiper. (https://swiperjs.com/)
+- SCSS. (https://sass-lang.com/)
 
 ## Available Scripts
 
@@ -36,5 +42,5 @@ Para ver el proyecto
 `npm start`
 
 Arranca la app en modo desarrollo.
-Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador
-Todos los cambios en el código serán actualizados automáticamente.
+
+Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador. Todos los cambios en el código serán actualizados automáticamente.
